@@ -1,5 +1,5 @@
 # Fully qualified container name prevents public registry typosquatting
-FROM docker.io/library/python:3-alpine
+FROM arm32v7/python:3.6-alpine3.11
 
 ARG UID=1012
 ARG GID=1012
